@@ -4,6 +4,8 @@ import { Http } from '@angular/http';
 
 // templateUrl example
 import { Home } from './home';
+
+import { Events } from './events';
 //
 /////////////////////////
 // ** Example Directive
@@ -59,6 +61,7 @@ export class About { }
   <nav>
     <a [routerLinkActive]="['active', 'router-link-active']" [routerLink]=" ['./home'] ">Home</a>
     <a [routerLinkActive]="['active', 'router-link-active']" [routerLink]=" ['./about'] ">About</a>
+    <a [routerLinkActive]="['active', 'router-link-active']" [routerLink]=" ['./events'] ">Events</a>
   </nav>
   <div class="hero-universal">
     <div class="inner-hero">
